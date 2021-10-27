@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+
+.card{
+    border: 1px solid transparent;
+    width: 400px ;
+    height: 620px;
+    border-radius: 10px;
+    display:flexbox;
+    align-self: center;
+    margin:auto;
+    background-color: white;
+    box-shadow: 0px 19px 30px rgba(149, 152, 161, 0.5) ;
+    
+}
+
+.imgn{
+    width: 400px ;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    font-size:16px;
+    margin: 0 15%;
+}
+.music{
+display:block;
+padding:30px;
+margin:10px;
+align-items: center;
+    
+}
+.music p{
+    display: inline-block;
+    text-align: left;
+    padding: 0 ;
+    margin: 0;
+    vertical-align:middle;
+}
+
+.music img{
+    padding:0 10px 0 10px;
+    display: inline-block;
+    vertical-align:bottom;
+    
+}
+p{
+   color: rgb(122, 120, 120);
+}
+p span{
+    font-weight: bold;
+    line-height: 2;
+    color:black
+}
+.music a{
+    margin-left: 60px;
+    font-size:14px;
+}
+
+.boton-1{
+    margin:10px 40px ;
+    padding:10px;
+    text-align: center;
+    border:1px solid black;
+    border-radius: 10px;
+    background-color: rgb(56, 42, 255) ;
+    box-shadow: 0px 19px 35px rgba(149, 152, 161, 0.5) ;
+
+}
+
+.boton-1 a{
+    color:white;
+    text-decoration:none;
+}
+.boton-2 {
+    margin:10px 40px ;
+    padding:10px;
+    text-align: center;
+}
+
+.boton-2 a{
+    text-decoration: none;
+    color:rgb(122, 120, 120)
+}
+
+.attribution{
+    padding: 20px;
+    margin:10px 0;
+}
+
+@media screen {
+    .card, .imgn{
+        max-width: 100%;
+    }
+}
